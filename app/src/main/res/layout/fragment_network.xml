@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="85dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:paddingLeft="80dp"
+        android:paddingRight="40dp"
+        android:orientation="vertical"
+        >
+
+        <com.cdtsp.engineermode.view.SwitchItem
+            android:id="@+id/switch_wifi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="25dp"
+            android:paddingBottom="15dp"
+            app:title="@string/wlan_switch"
+            app:subtitle=""
+            app:ip =""
+            app:statusText=""
+            app:textSize="40dp"
+            app:switchDrawable="@drawable/selector_switch_img"
+            />
+
+        <include layout="@layout/line_seperator"/>
+
+        <TextView
+            android:id="@+id/ip_addr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="@dimen/content_text_size"
+            android:textColor="@android:color/darker_gray"
+            android:text="@string/ip_address"
+        />
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="30dp"-->
+            <!--android:textSize="@dimen/content_text_size"-->
+            <!--android:textColor="@android:color/darker_gray"-->
+            <!--android:text="@string/available_networks"-->
+            <!--/>-->
+
+        <!--<include layout="@layout/line_seperator"/>-->
+
+        <!--<ListView-->
+            <!--android:id="@+id/list_view_wifi"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"/>-->
+
+    </LinearLayout>
+
+    <!--<ImageView-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="1"-->
+        <!--android:layout_marginTop="150dp"-->
+        <!--android:scaleType="centerInside"-->
+        <!--android:src="@drawable/xitong_wifi_bg"-->
+        <!--/>-->
+
+</LinearLayout>

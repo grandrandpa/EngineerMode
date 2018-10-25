@@ -1,0 +1,42 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* Android.mk
+* protos\
+* protos\ClusterInteractive.proto
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => hmiLib\src\main\AndroidManifest.xml
+* res\ => hmiLib\src\main\res\
+* src\ => hmiLib\src\main\java\
+* src\com\cdtsp\hmilib\mediaclient\os\IMediaClientController.aidl => hmiLib\src\main\aidl\com\cdtsp\hmilib\mediaclient\os\IMediaClientController.aidl
+* src\com\cdtsp\hmilib\mediaclient\os\MediaInfo.aidl => hmiLib\src\main\aidl\com\cdtsp\hmilib\mediaclient\os\MediaInfo.aidl
+* src\com\cdtsp\hmilib\radiocontroller\service\IRadioCallback.aidl => hmiLib\src\main\aidl\com\cdtsp\hmilib\radiocontroller\service\IRadioCallback.aidl
+* src\com\cdtsp\hmilib\radiocontroller\service\IRadioManager.aidl => hmiLib\src\main\aidl\com\cdtsp\hmilib\radiocontroller\service\IRadioManager.aidl
+* src\com\cdtsp\hmilib\radiocontroller\service\RadioRds.aidl => hmiLib\src\main\aidl\com\cdtsp\hmilib\radiocontroller\service\RadioRds.aidl
+* src\com\cdtsp\hmilib\radiocontroller\service\RadioStation.aidl => hmiLib\src\main\aidl\com\cdtsp\hmilib\radiocontroller\service\RadioStation.aidl
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

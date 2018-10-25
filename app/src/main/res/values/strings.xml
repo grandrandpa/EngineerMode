@@ -1,0 +1,53 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Engineer Mode</string>
+    <string name="engineer_mode">Engineer Mode</string>
+    <string name="device">Device Info</string>
+    <string name="networks">Networks</string>
+    <string name="map">Map</string>
+    <string name="volume">Volume</string>
+    <string name="display">Setting</string>
+
+    <string name="device_model">Device mode</string>
+    <string name="firmware_version">Firmware version</string>
+    <string name="kernel_version">Kernel version</string>
+    <string name="build_number">Build NO.</string>
+
+
+    <string name="map_note">Copying map data</string>
+    <string name="map_data_copy">Copying</string>
+
+    <string name="saved">Saved</string>
+    <string name="available_networks">Available Networks</string>
+    <string name="mac_address">MAC Address: </string>
+    <string name="ip_address">IP: </string>
+    <string name="openning">Openning...</string>
+    <string name="wlan_switch">WLAN Switcher</string>
+    <string name="wifi_disconnecting">disconnecting...</string>
+    <string name="wifi_disconnected">disconnected</string>
+    <string name="wifi_scaning">scanning...</string>
+    <string name="wifi_authenticating">authenticating...</string>
+    <string name="wifi_obtaining_ipaddr">obtaining ip address...</string>
+    <string name="wifi_connected">connected</string>
+    <string name="wifi_connecting">connecting...</string>
+    <string name="wifi_password_input">Please input the password</string>
+    <string name="wifi_password_input_err">You haven\'t input the password yet</string>
+    <string name="wifi_disconnecting_question">Disconnecting？</string>
+    <string name="wifi_operate_question">Connect or delete this network？</string>
+    <string name="wifi_prepare_for_active">Prepare for activing wifi......</string>
+    <string name="wifi_prepare_for_close">Prepare for closing wifi......</string>
+    <string name="wifi_activing">Activing wifi......</string>
+    <string name="wifi_closing">Closing wifi......</string>
+
+    <string name="brightness">Brightness</string>
+    <string name="screen_off">Screen Off</string>
+    <string name="run_mode">Mode of running</string>
+
+
+    <array name="opts_run_mode">
+        <item name="fast_boot">Fast boot mode</item>
+        <item name="adb_mode">ADB mode</item>
+        <item name="usb_boot">USB mode</item>
+    </array>
+
+</resources>

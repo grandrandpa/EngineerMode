@@ -1,0 +1,52 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">工程模式</string>
+    <string name="engineer_mode">工程模式</string>
+    <string name="device">设备信息</string>
+    <string name="networks">网络</string>
+    <string name="map">地图</string>
+    <string name="volume">音量</string>
+    <string name="display">设置</string>
+
+    <string name="device_model">设备模式</string>
+    <string name="firmware_version">Android版本</string>
+    <string name="kernel_version">内核版本</string>
+    <string name="build_number">编译版本</string>
+
+    <string name="map_note">拷贝地图数据</string>
+    <string name="map_data_copy">拷贝</string>
+
+    <string name="saved">保存</string>
+    <string name="available_networks">可用网络</string>
+    <string name="mac_address">MAC地址: </string>
+    <string name="ip_address">IP: </string>
+    <string name="openning">正在打开...</string>
+    <string name="wlan_switch">网络开关</string>
+    <string name="wifi_disconnecting">正在断开...</string>
+    <string name="wifi_disconnected">断开</string>
+    <string name="wifi_scaning">扫描中...</string>
+    <string name="wifi_authenticating">授权中...</string>
+    <string name="wifi_obtaining_ipaddr">正在获取IP地址...</string>
+    <string name="wifi_connected">连接完成</string>
+    <string name="wifi_connecting">连接中...</string>
+    <string name="wifi_password_input">输入密码</string>
+    <string name="wifi_password_input_err">You haven\'t input the password yet</string>
+    <string name="wifi_disconnecting_question">Disconnecting？</string>
+    <string name="wifi_operate_question">Connect or delete this network？</string>
+    <string name="wifi_prepare_for_active">Prepare for activing wifi......</string>
+    <string name="wifi_prepare_for_close">Prepare for closing wifi......</string>
+    <string name="wifi_activing">Activing wifi......</string>
+    <string name="wifi_closing">正在关闭wifi......</string>
+
+    <string name="brightness">亮度</string>
+    <string name="screen_off">关闭屏幕</string>
+    <string name="run_mode">运行模式</string>
+
+    <array name="opts_run_mode">
+        <item name="digital_clock">Fast boot模式</item>
+        <item name="analog_clock">ADB模式</item>
+        <item name="none">USB模式</item>
+    </array>
+
+
+</resources>

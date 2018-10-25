@@ -1,0 +1,18 @@
+<resources>
+    <dimen name="dialog_width">812dp</dimen>
+    <dimen name="dialog_height">574dp</dimen>
+    <dimen name="dialog_padding">88dp</dimen>
+    <dimen name="dialog_content_width">636dp</dimen>
+    <dimen name="dialog_title_drawable_padding">30dp</dimen>
+    <dimen name="dialog_message_height">158dp</dimen>
+    <dimen name="dialog_message_margin_t">50dp</dimen>
+    <dimen name="dialog_button_width">283dp</dimen>
+    <dimen name="dialog_button_margin_t">20dp</dimen>
+    <dimen name="dialog_button_margin_c">70dp</dimen>
+    <dimen name="dialog_button_margin_l">35dp</dimen>
+    <dimen name="dialog_title_text_size">40sp</dimen>
+    <dimen name="dialog_message_text_size">34sp</dimen>
+    <dimen name="dialog_button_text_size">34sp</dimen>
+    <dimen name="dialog_wait_message_margin_t">30dp</dimen>
+    <dimen name="dialog_wait_progressbar_margin_t">100dp</dimen>
+</resources>

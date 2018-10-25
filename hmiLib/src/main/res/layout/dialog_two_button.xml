@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dialog_width"
+    android:layout_height="@dimen/dialog_height"
+    android:padding="@dimen/dialog_padding"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/title_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:drawableStart="@drawable/dialog_prompt_icon"
+        android:drawablePadding="@dimen/dialog_title_drawable_padding"
+        android:gravity="center"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="@dimen/dialog_title_text_size" />
+
+    <TextView
+        android:id="@+id/message_view"
+        android:layout_width="@dimen/dialog_content_width"
+        android:layout_height="@dimen/dialog_message_height"
+        android:layout_marginTop="@dimen/dialog_message_margin_t"
+        android:gravity="top|center_horizontal"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="@dimen/dialog_message_text_size" />
+
+    <LinearLayout
+        android:layout_width="@dimen/dialog_content_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dialog_button_margin_t">
+
+        <Button
+            android:id="@+id/button_1"
+            style="@style/DialogButtonStyle"
+            />
+
+        <Button
+            android:id="@+id/button_2"
+            style="@style/DialogButtonStyle"
+            android:layout_marginLeft="@dimen/dialog_button_margin_c"/>
+
+    </LinearLayout>
+
+</LinearLayout>
